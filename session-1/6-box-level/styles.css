@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+  }
+  
+  .site-container {
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    border: 2px solid #000; 
+    /* padding: 20px;  */
+    box-sizing: border-box; 
+  }
+  
+  .header {
+    padding: 10px 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .box {
+    color: #000; 
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid #000; 
+  }
+  
+  .logo-box {
+    width: 100px;
+    height: 100px; 
+    margin-right: 20px;
+  }
+  
+  .title-box {
+    width: 500px;
+    height: 50px; 
+    margin-right: 450px; 
+  }
+  
+  .search-box {
+    width: 50px;
+    height: 50px; 
+  }
+  
+  .navigation {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-container {
+    display: flex;
+    flex-wrap: wrap;    
+    width: 100vw; 
+    border: 2px solid #000;
+    box-sizing: border-box;
+  }
+  
+  .nav-item {
+    margin: 2px; 
+    width: 60px; 
+    height: 20px; 
+  }
+
+  .main-content{
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+  }
+  .main-container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 2px solid #000000; 
+  }
+ 
+  .video-box {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #000; 
+  }
+
+  .main-item {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  .news-box {
+    display: flex;
+    width: 99%;
+    height: 50vw;
+    border-radius: 5px;
+    border: 2px solid #ffffff; 
+  }
+  .news-image-box {
+    width: 700px;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  .news-title-box{
+    width: 700px;
+    height: 200px;
+  }
+  
+  .large-box {
+    flex: 2; 
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid #ffffff; 
+  }
+  .small-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 2px solid #ffffff; 
+  }
+  .new-small-box{
+    width: 60%;
+    height: 90px;
+  }
+  .view-all-box{
+    width: 80%;
+    height: 10px;
+  }
+
+  .new-content-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px solid #000000; 
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;  
+    margin-bottom: 10px;  
+    border-radius: 5px;
+    border: 2px solid #ffffff; 
+  }
+
+  .contact-information {
+    display: flex;
+    align-items: center;    
+    width: 90%;
+    height: 350px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #ffffff; 
+  }
+
+  .contact-box-1 {
+    width: 400px;
+    height: 320px;
+    margin-right: 50px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+  }
+  .contact-box-2 {
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+
+  }
+  .contact-box-2-1{
+    width: 300px;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .contact-box-2-2{
+    width: 30px;
+    height: 30px;
+  }
+  .contact-box-title {
+    width: 220px;
+    height: 25px;
+    margin-bottom: 30px;
+  }
+  .info1 {
+    width: 150px;
+    height: 60px;
+    margin-bottom: 40px;
+  }
+  .info11{
+    width: 260px;
+    height: 60px;
+    margin-bottom: 40px;
+  }
+  .quick-links {
+    display: flex;
+    align-items: center;    
+    width: 90%;
+    height: 350px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;  
+  }
+
+  .info2 {
+    width: 180px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+  .info3 {
+    width: 70px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+  .footer-box {
+    height: 60px;
+  }
